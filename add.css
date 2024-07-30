@@ -1,0 +1,57 @@
+#add-container{
+    width: 100vw;
+    height: 50vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(35deg,silver,white);
+}
+#add-form{
+    width: 60vw;
+    height: 25vw;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: gray;
+    border-radius: 1vw;
+    box-shadow: 2px 2px 2px black;
+}
+#add-heading{
+    width: 27vw;
+    height: 4vw;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+}
+#namee,#email-input{
+    width: 10vw;
+    font-size: 1.6vw;
+    background-color: gray;
+    height: 4vw         ;
+}
+#add-user-btn
+{
+width: 8vw;
+color: white;
+background-color: rgb(81, 80, 80);
+margin-left: 8vw;
+height: 2vw;
+border-radius: 1vw;
+}
+#add-user-input,#add-email-input{
+    width: 24vw;
+    font-size: 1vw;
+    border-radius: 1vw;
+    height: 2.8vw;
+    color: rgb(78, 76, 76);
+    border: 2px solid white;
+    background-color: rgb(245, 245, 245);
+}
